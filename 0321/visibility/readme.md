@@ -1,4 +1,4 @@
-```md
+
 # Android UI Layout 설명
 
 ## 개요
@@ -48,6 +48,5 @@
         android:text="버튼 5" />
 
 </LinearLayout>
-```
 ```
 
