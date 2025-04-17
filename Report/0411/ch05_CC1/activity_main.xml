@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="현재 사용중인 안드로이드 버전은?"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio233"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.3.3"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radio41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.1"/>
+
+        <RadioButton
+            android:id="@+id/radio44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.4"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DISPLAY IMAGE"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/image0"/>
+
+</LinearLayout>
