@@ -6,9 +6,6 @@ Android ViewPager를 이용한 이미지 스크롤 갤러리 예제입니다.
 - 좌우 스와이프 가능한 이미지 갤러리  
 - 각 이미지별 제목 표시
 
-## 미리보기
-![갤러리 스크린샷](screenshots/screenshot1.png)
-
 ## 요구 사항
 - Android Studio 4.0 이상  
 - AndroidX ViewPager 라이브러리  
