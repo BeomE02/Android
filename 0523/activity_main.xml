@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Fragment Container -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- 하단 네비게이션 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:elevation="8dp"
+        android:paddingVertical="8dp">
+
+        <Button
+            android:id="@+id/btnNavTodoList"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="📋\n할 일"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="#2196F3" />
+
+        <Button
+            android:id="@+id/btnNavCalendar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="📅\n캘린더"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="#666666" />
+
+        <Button
+            android:id="@+id/btnNavStats"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="📊\n통계"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="#666666" />
+
+    </LinearLayout>
+
+    <!-- 플로팅 액션 버튼 -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="24dp"
+        android:contentDescription="할 일 추가"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="@android:color/white" />
+
+</LinearLayout>
