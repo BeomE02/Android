@@ -234,6 +234,4 @@ copies or substantial portions of the Software.
 
 **⭐ 이 프로젝트가 도움이 되었다면 Star를 눌러주세요! ⭐**
 
-Made with ❤️ by [Your Name]
-
-</div>
+Made with ❤️ by BeomE
